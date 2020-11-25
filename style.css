@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  
+  body{
+      background-color: rgb(7, 1, 1);
+      font-family: Arial, Helvetica, sans-serif;
+      
+  }
+  
+  .post{
+      margin:auto;
+      margin-top: 10%;
+      background-color: rgb(255, 255, 255);
+      width: 500px;
+      height: 650px;
+      border: 1px solid rgb(7, 1, 1);
+      display: flex;
+      flex-direction: column;
+      border: 1px #c4c2c2 solid;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(7, 1, 1), 0 6px 20px 0 rgba(7, 1, 1);
+    
+  }
+  
+  
+  img {
+      width: 500px;
+  }
+  
+  h4, p{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #353535;
+  }
+  
+  .fa-html5, .fa-ellipsis-v{
+      font-size: 32px;
+      color: #353535;
+  }
+  
+    
+  .fa-ellipsis-v{
+      text-align: right;
+   
+      color: #353535;
+  }
+  .header{
+      display: flex;
+      flex-direction: row;
+     align-items: flex-start;
+      padding: 16px;
+      align-items: center;
+  }
+
+  
+  .html-Icon{
+      padding-right: 4px;
+  }
+  
+  .Icon-right{
+      width: 300px;
+      padding-left: 290px;
+  }
+  
+  .Icon-left{
+      width: 300px;
+        color: rgb(7, 1, 1);;
+
+  }
+  
+  .fa-heart, .fa-comment, .fa-paper-plane, .fa-bookmark{
+      font-size: 28px;
+      color: rgb(7, 1, 1);;
+  }
+  
+  .fa-bookmark{
+      text-align: right;
+  }
+  
+  .icons{
+      padding: 16px;
+      display: flex;
+      flex-direction: row;
+  }
+  
+  
+  .right-icon{
+      width: 340px;
+      padding-left: 340px;
+  
+  }
+  
+  .likes-text {
+      padding: 15px;
+  }
